@@ -4,4 +4,4 @@ var Advise = ["don't want", 'better'];
 var randomDay = Day[Math.floor(Math.random() * 4)];
 var randomAdvise = Advise[Math.floor(Math.random() * 2)];
 var randomPhrases = Phrases[Math.floor(Math.random() * 4)]; A
-var anAdvise = ['You', randomAdvise, randomPhrases, randomDay + '!!!'].join(" ")
+var anAdvise = ['You', randomAdvise, randomPhrases, randomDay + '!!!']
