@@ -1,7 +1,8 @@
-var Phrases = ['to study some more JS', 'to take a little break', 'to make a cup of coffe', 'to train memory'];
-var Day = ['today', 'tomorrow', 'the day after tomorrow'];
-var Advise = ["don't want", 'better'];
-var randomDay = Day[Math.floor(Math.random() * 4)];
-var randomAdvise = Advise[Math.floor(Math.random() * 2)];
-var randomPhrases = Phrases[Math.floor(Math.random() * 4)]; A
-var anAdvise = ['You', randomAdvise, randomPhrases, randomDay + '!!!']
+let Phrases = ['to study some more JS', 'to take a little break', 'to make a cup of coffe', 'to train memory'];
+let Day = ['today', 'tomorrow', 'the day after tomorrow'];
+let Advise = ["don't want", 'better'];
+let randomDay = Day[Math.floor(Math.random() * 4)];
+let randomAdvise = Advise[Math.floor(Math.random() * 2)];
+let randomPhrases = Phrases[Math.floor(Math.random() * 4)]; A
+let anAdvise = 'You' + 'randomAdvise' + 'randomPhrases' + 'randomDay' + '!!!';
+console.log(anAdvise)
